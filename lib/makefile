@@ -1,4 +1,4 @@
-include config.mk
+include config.mk.in
 
 #CC += -faddress-sanitizer -fno-omit-frame-pointer
 CFLAGS := -O3 -ffast-math -Wall $(CFLAGS)# -fprofile-arcs -ftest-coverage
