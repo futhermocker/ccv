@@ -1,4 +1,4 @@
-include ../lib/config.mk.in
+include ../lib/config.mk
 
 #CC += -faddress-sanitizer -fno-omit-frame-pointer
 LDFLAGS := -L"../lib" -lccv $(LDFLAGS)
